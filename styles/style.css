@@ -1,0 +1,48 @@
+* {
+  font-family: 'Fira Sans';
+  color: white;
+}
+
+body {
+  background-color: gray;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: gold;
+}
+
+nav {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+nav > a {
+  padding: 0 5px 0 5px;
+}
+
+footer {
+  height: 25px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px
+}
+
+main {
+  height: calc(100vh - 75px);
+  overflow-x: scroll;
+  width: 66%;
+  padding: 0 16.5vw 0 16.5vw;
+}
