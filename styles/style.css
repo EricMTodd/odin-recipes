@@ -46,3 +46,7 @@ main {
   width: 66%;
   padding: 0 16.5vw 0 16.5vw;
 }
+
+img {
+  height: 300px;
+}
