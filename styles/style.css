@@ -1,6 +1,8 @@
 * {
   font-family: 'Fira Sans';
   color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body {
