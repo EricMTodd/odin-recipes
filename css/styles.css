@@ -1,0 +1,36 @@
+* {
+	background-color: #1c1c1c;
+	color: whitesmoke;
+	box-sizing: border-box;
+	font-family: serif;
+}
+
+body {
+	margin: 0;
+	padding: 2% 15%;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+p, li {
+	font-size: 20px;
+}
+
+.ingredients, .steps {
+	width: 50%;
+}
+
+.ingredients {
+	float: left;
+}
+
+.steps {
+	float: right;
+}
