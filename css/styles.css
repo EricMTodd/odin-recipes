@@ -17,6 +17,8 @@ h1 {
 img {
 	display: block;
 	margin: 0 auto;
+	height: 500px;
+	width: auto;
 }
 
 p, li {
@@ -33,4 +35,8 @@ p, li {
 
 .steps {
 	float: right;
+}
+
+.rotated {
+	transform: rotate(90deg);
 }
