@@ -25,6 +25,14 @@ p, li {
 	font-size: 20px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: goldenrod;
+}
+
 .ingredients, .steps {
 	width: 50%;
 }
